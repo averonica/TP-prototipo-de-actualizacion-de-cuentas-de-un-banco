@@ -1,6 +1,7 @@
 # TP-prototipo-de-actualizacion-de-cuentas-de-un-banco
-Trabajo practico realizado de manera grupal (3 personas).
-Un Banco "x" desea actualizar su módulo de reportes y cuentas. Este módulo implementará las funcionalidades básicas para la actualización de saldos 
+### Trabajo practico realizado de manera grupal (3 personas).
+
+- Un Banco "x" desea actualizar su módulo de reportes y cuentas. Este módulo implementará las funcionalidades básicas para la actualización de saldos 
 y administración de cuentas, el cual se pide el diseño de un primer prototipo.
 Este prototipo es una versión “simplificada” del sistema a entregar, ya que no se tienen en cuenta datos del cliente,
 rigurosidad en performance e interacción con otros sistemas de la organización.
@@ -40,3 +41,4 @@ El programa permite:
 7. Finalizar jornada (sobreescribir Cuentas.BIC).
 
 averonica/TP-Prototipo-de-actualizacion-de-cuentas-de-un-banco
+### Arias, Verónica Yanina
