@@ -17,13 +17,14 @@ estructura:
  NroCliente      9999
  Registro "Cuenta"
 ```
+```
  Movimiento:
  MovimientoID   9999;
  FechaHora      AAAAMMDDHH:MM;
  Monto          999.99999;
  CuentaID       99999;
  Registro "Movimiento"
-
+```
 Al comenzar la jornada se “levantan” todas las cuentas desde el archivo “Cuentas.BIC”. Cada vez que el usuario
 requiera se procesará un “lote de movimientos”. Se desconoce cuántos movimientos puede haber en cada lote,
 pero puede ser tan grande que haga difícil su manejo en un vector.
