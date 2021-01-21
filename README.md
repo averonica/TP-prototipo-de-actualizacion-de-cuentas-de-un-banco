@@ -8,20 +8,21 @@ rigurosidad en performance e interacción con otros sistemas de la organización
 Los tipos de datos principales que se manejan son “Cuenta” y “Operación” que presentan la siguiente
 estructura:
 
-# Tarjeta:
-# CuentaID        99999;
-# FechaCreacion   AAAAMMDD;
-# Activa          True/False;
-# Saldo           999.999999;
-# NroCliente      9999
-# Registro "Cuenta"
-
-# Movimiento:
-# MovimientoID   9999;
-# FechaHora      AAAAMMDDHH:MM;
-# Monto          999.99999;
-# CuentaID       99999;
-# Registro "Movimiento"
+```
+ Tarjeta:
+ CuentaID        99999;
+ FechaCreacion   AAAAMMDD;
+ Activa          True/False;
+ Saldo           999.999999;
+ NroCliente      9999
+ Registro "Cuenta"
+```
+ Movimiento:
+ MovimientoID   9999;
+ FechaHora      AAAAMMDDHH:MM;
+ Monto          999.99999;
+ CuentaID       99999;
+ Registro "Movimiento"
 
 Al comenzar la jornada se “levantan” todas las cuentas desde el archivo “Cuentas.BIC”. Cada vez que el usuario
 requiera se procesará un “lote de movimientos”. Se desconoce cuántos movimientos puede haber en cada lote,
